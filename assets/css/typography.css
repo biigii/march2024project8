@@ -1,0 +1,21 @@
+.navigation a {
+    /*  this is inline */
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0 30px;
+    transition-property: color;
+    /* recommended value for transition is 400ms-600ms */
+    transition-duration: 500ms;
+}
+
+.navigation a:hover {
+    color: #000
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,12 @@
+* {
+  /* so border and padding get included inside the content */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* we give height 100% to html and body */
+html,
+body {
+  height: 100%;
+}

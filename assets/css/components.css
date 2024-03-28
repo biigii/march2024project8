@@ -1,0 +1,11 @@
+header {
+    margin-bottom: 100px;
+}
+
+.navigation {
+    height: 150px;
+    background-color: var(--secondary);
+    text-align: center;
+    line-height: 150px;
+}
+

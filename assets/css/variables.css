@@ -1,0 +1,9 @@
+/* root is an alias for <html> */
+:root {
+  --primary: rgb(207, 246, 9);
+  --secondary: rgb(233, 165, 119);
+  --tertiary: rgb(22, 156, 234);
+
+  --site-width: 1500px;
+  --gutter: 20px
+}
