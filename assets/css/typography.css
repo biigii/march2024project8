@@ -27,8 +27,59 @@ h1 {
 }
 
 
-h2 {
-    text-align: center;
+
+@media (max-width: 1000px) {
+    /* inside here you will css which only is applied up to (max) the width of 1000px */
+
+    body {
+        background-color: #eac5c5;
+    }
+
+    h1 {
+        color: #f10404;
+        font-size: 120px;
+    }
+
+    nav.navigation {
+        background-color: var(--secondary); 
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1000px) {
+    h1 {
+        color: #d214d2;
+        font-size: 200px;
+    }
+
+    nav.navigation {
+        background-color: var(--primary);
+    }
+
+    nav.navigation a {
+        color: #000
+    }
+
+    body {
+        background-color: rgb(91, 16, 52);
+    }
+
+} 
+
+
+@media (min-width: 1400px) {
+    /* stylings here get applied from 1000px and more */
+  h1 {
+    color: #0707dd;
+    font-size: 30px
+  }
+
+  nav.navigation {
+    background-color: var(--tertiary);
+  }
+
+  body {
+    background-color: #87c9b4;
+  }
 }
 
 

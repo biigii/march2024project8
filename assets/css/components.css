@@ -4,21 +4,8 @@ header {
 
 .navigation {
     height: 150px;
-    background-color: var(--secondary);
     text-align: center;
     line-height: 150px;
 }
 
-p {
-    /* padding: 0 var(--gutter); */
-    /* 8 x 25px = 200px */
-    /* 4 x 25% = 100% */
-    /* 100% + 200px */
-    /* width: 25%;
-    float: left */
-}
-
-img {
-    width: 100%
-}
 
