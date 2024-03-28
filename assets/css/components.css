@@ -9,3 +9,20 @@ header {
     line-height: 150px;
 }
 
+p {
+    margin-bottom: 50px;
+}
+
+.photo-1 {
+    float: left;
+    margin-right: 20px;
+}
+
+.photo-2 {
+    float:right
+}
+
+.photo-3 {
+    float: left
+}
+
