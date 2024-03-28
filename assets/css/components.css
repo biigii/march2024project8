@@ -8,4 +8,6 @@ header {
     line-height: 150px;
 }
 
-
+img {
+    width: 100%;
+}
