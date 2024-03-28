@@ -10,8 +10,11 @@ header {
 }
 
 p {
-    padding: 0 var(--gutter);
-    width: 25%;
-    float: left
+    /* padding: 0 var(--gutter); */
+    /* 8 x 25px = 200px */
+    /* 4 x 25% = 100% */
+    /* 100% + 200px */
+    /* width: 25%;
+    float: left */
 }
 

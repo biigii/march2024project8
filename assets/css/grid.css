@@ -1,6 +1,31 @@
 .container {
-    max-width: var(--site-width);
-    /* margin auto for left and right */
-    margin: 0 auto;
-    padding: 0 var(--gutter)
+  max-width: var(--site-width);
+  /* margin auto for left and right */
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.col {
+  float: left;
+  padding: 0 10px;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-7 {
+  width: 58.33%;
 }
