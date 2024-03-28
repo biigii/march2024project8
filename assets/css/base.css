@@ -10,3 +10,8 @@ html,
 body {
   height: 100%;
 }
+
+p {
+  /* just while i am using text as placeholder */
+  text-align: justify;
+}
