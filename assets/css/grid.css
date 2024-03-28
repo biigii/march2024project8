@@ -5,28 +5,3 @@
   padding: 0 var(--gutter);
 }
 
-.content-1 {
-    border: 2px solid #f12;
-    background-color: var(--tertiary);
-}
-
-.col-6 {
-    width: 50%;
-    float: left;
-    padding: 10px;
-}
-
-.clearfix {
-  clear: left;
-}
-
-.col-4 {
-  width: 33.33%;
-  float: left;
-  padding: 10px
-}
-
-.content-2 {
-  background-color: #9af10d;
-  border: 3px solid;
-}
