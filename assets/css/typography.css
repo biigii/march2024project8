@@ -26,28 +26,9 @@ h1 {
     text-transform: capitalize;
 }
 
-h1:hover {
-    /* pseudo classes  :hover*/
-    /* color: #f11 */
+
+h2 {
+    text-align: center;
 }
 
-/* pseudo elements ::after and ::before  */
-/*  this means to insert extra contents after teh existing content */
-/* h1::after {
- content: "\26BE";
-}
-
-h1::before {
-    content: "\270C "
-} */
-
-h1::before {
-    content: "";
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-color: #da5d5d;
-    border-radius: 50%;
-    margin-right: 20px;
-}
 
